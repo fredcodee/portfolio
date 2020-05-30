@@ -1328,9 +1328,36 @@
 			opacity: 1;
 		}
 
+	/* skills */
+	#skills{
+		padding: 4em 0 2em 0;
+		text-align: center;
+	}
+	#skills h1{
+		font-size: 1.7rem;
+	}
+
+	.contents{
+		display: flex;
+		justify-content: center;
+	}
+	.exp{
+		font-size: 1.3rem;
+	}
+	.exp li{
+		list-style:none;
+	}
+	.skill{
+		display: flex;
+	}
+	.skill img{
+		height: 100px;
+		width: 100px;
+	}
+
 /* Main */
 
-	#main {
+	#main{
 		padding: 4em 0 2em 0;
 	}
 
