@@ -1339,21 +1339,30 @@
 
 	.contents{
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
 	}
 	.exp{
 		font-size: 1.3rem;
+		width: 50%;
 	}
 	.exp li{
 		list-style:none;
 	}
 	.skill{
 		display: flex;
+		align-items: center;
 	}
 	.skill img{
-		height: 100px;
-		width: 100px;
+		height: 130px;
+		width: 130px;
+		padding: 0.4rem;
 	}
+	@media screen and (max-width: 736px) {
+
+			.contents{
+				flex-wrap: wrap;
+			}
+		}
 
 /* Main */
 
